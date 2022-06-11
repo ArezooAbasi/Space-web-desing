@@ -1,0 +1,185 @@
+body, h1, h2, li, ul, a{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: #040425;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+header h1{
+    color: antiquewhite;
+    font-size: 40px;
+    display: inline-block;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+    padding: 15px;
+}
+
+.banner{
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+
+}
+.banner img{
+    width: 100%;
+}
+
+.banner .welcome{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: antiquewhite;
+    text-align: left;
+    background-color: #1c393fc7 ;
+    padding: 50px 100px;
+
+}
+.banner .welcome br{
+    display: none;
+}
+.banner .welcome span{
+    font-size: 1.3em;
+    color: bisque;
+}
+
+.main-nav{
+    background-color: #04043b;
+    position: sticky;
+    top: 90px;
+    padding: 20px;
+}
+
+.main-nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.main-nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+article h2{
+    text-align: left;
+    font-size: 30px;
+    color: #040425;
+}
+article p{
+    line-height: 2em;
+    color: #040925;
+    font-size: 20px;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+}
+
+
+.images li>img {
+    max-width: 100%;
+    width:  700px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.Join{
+    background-color: #040425;
+    color: antiquewhite;
+    text-align: center;
+    padding: 60px 20px;
+}
+.Join h2{
+    font-size: 30px;
+}
+.Join p{
+    font-size: 21px;
+}
+form input{
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 40px;       
+    border: 4px solid white;
+
+}
+
+
+footer{
+    text-align: center;
+    background-color: #040425;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+
+
+.main-nav li a:hover{
+    font-size: 25px;
+    color: #dee599ce;
+    text-decoration: underline;
+}
+
+
+.images li>img:hover {
+    position: relative;
+    top: 4px;
+    z-index: -1;
+}
+
+.email:focus{
+    border: 5px groove #17b2e6;
+    outline: none;
+}
+
+.email:valid{
+    border: 5px solid green;
+
+}
+
+.tel:focus{
+    border: 5px groove #17b2e6;
+    outline: none;
+}
+
+.tel:valid{
+    border: 5px solid green;
+}
+
+
+
